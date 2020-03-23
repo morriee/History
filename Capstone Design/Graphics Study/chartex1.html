@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {packages: ['corechart', 'bar']});
+      google.charts.setOnLoadCallback(drawBasic1);  //확진자수
+      google.charts.setOnLoadCallback(drawBasic2);    //사망자수
+      google.charts.setOnLoadCallback(drawBasic3);    //사망자수
+
+      //Total Cases(전체 확진자수)
+      function drawBasic1() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Total Cases(코로나 확진자수)',],
+          ['China, 중국', 81093],
+          ['Italy, 이탈리아', 59138],
+          ['USA, 미국', 35075],
+          ['Spain, 스페인', 33089],
+          ['Germany, 독일', 26220]
+        ]);
+
+        var options = {
+          title: '코로나 국가별 확진자 동향',
+          chartArea: {width: '50%'},
+          hAxis: {
+            title: 'Total Cases',
+            minValue: 0
+          },
+          vAxis: {
+            title: 'Country'
+          },
+          colors: ['#1b9e77']
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart1_div'));
+
+        chart.draw(data, options);
+    }
+
+      //Total Deaths(전체 사망자수)
+      function drawBasic2() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Total Deaths(코로나 사망자수)',],
+        ['China, 중국', 3270],
+        ['Italy, 이탈리아', 5476],
+        ['USA, 미국', 458],
+        ['Spain, 스페인', 2206],
+        ['Germany, 독일', 111]
+      ]);
+
+      var options = {
+        title: '코로나 국가별 사망자 동향',
+        chartArea: {width: '50%'},
+        hAxis: {
+          title: 'Total Deaths',
+          minValue: 0
+        },
+        vAxis: {
+          title: 'Country'
+        },
+        colors: ['#d95f02']
+      };
+
+      var chart = new google.visualization.BarChart(document.getElementById('chart2_div'));
+
+      chart.draw(data, options);
+      }    
+
+      //Total Recovered(전체 회복자수)
+      function drawBasic3() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Total Recovered(코로나 회복자  )',],
+          ['China, 중국', 72703],
+          ['Italy, 이탈리아', 7024],
+          ['USA, 미국', 178],
+          ['Spain, 스페인', 27528],
+          ['Germany, 독일', 25687]
+        ]);
+
+        var options = {
+          title: '코로나 국가별 회복자 동향',
+          chartArea: {width: '50%'},
+          hAxis: {
+            title: 'Total Recovered',
+            minValue: 0
+          },
+          vAxis: {
+            title: 'Country'
+          },
+          colors: ['#7570b3']
+      };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart3_div'));
+
+        chart.draw(data, options);
+      }    
+    
+    </script>
+  </head>
+  <body>
+    <div id="chart1_div"></div>
+    <div id="chart2_div"></div>
+    <div id="chart3_div"></div>
+   <!-- <div id="barchart_material" style="width: 900px; height: 500px;"></div>-->
+  </body>
+</html>
