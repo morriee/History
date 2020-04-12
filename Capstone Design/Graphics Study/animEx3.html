@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>도형 애니메이션 연습</title>
+        <meta charset="utf-8">
+        <style>
+            @keyframes slidein{
+                from {
+                    margin-left:100%;
+                    width: 300%;
+                }
+                to{
+                    margin-left:0%;
+                    width:100%;
+                }
+            }
+
+
+
+            canvas.myCanvas {
+                animation-name: slidein;
+                animation-duration: 5s;
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <canvas id="myCanvas" ></canvas>
+        
+        <script>
+            
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+
+            context.beginPath();
+            context.rect(45,45,60,60);
+
+            context.fillStyle="magenta";
+//            context.stroke();   // 선
+            context.fill();
+        </script>
+
+    </body>
+</html>
