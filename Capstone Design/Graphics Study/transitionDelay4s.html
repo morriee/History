@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>transition-delay:4s</title>
+        <meta charset="utf-8">
+    </head>
+    <style>
+        .parent { width: 250px; height: 125px;}
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            font-size: 20px;
+            left: 500px;
+            bottom: 500px;
+            position: absolute;
+            -webkit-transform-property: width height background-color font-size left top color;
+            -webkit-transition-duration: 4s;
+            /*-webkit-transition-delay: 4s;*/
+            -webkit-transition-timing-function: ease-in-out;    /*linear*/
+            /*-webkit-transition-timing-function: cubic-bezier(0.6, 0.1, 0.15, 0.8);*/
+            /*
+                -webkit-animation: slide-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	                    animation: slide-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            */
+            transition-property: width height background-color font-size left top color;
+            transition-duration: 2s;
+            transition-delay: 1s;
+           transition-timing-function: ease-in-out;        /*linear*/
+           /*transition-timing-function: cubic-bezier(0.6, 0.1, 0.15, 0.8);*/
+        }
+        .box1{
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            color: yellow;
+            font-size: 18px;
+            left: 300px;
+            /*top:25px;*/
+            bottom: 300px;
+            position:absolute;
+            -webkit-transition-property: width height backtround-color font-size left top color;
+            -webkit-transition-duration: 4s;
+            -webkit-transition-delay: 1s;
+            /*-webkit-transition-timing-function: cubic-bezier(0.6, 0.1, 0.15, 0.8);*/
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: width height background-color font-size left top color;
+            transition-duration: 2s;         /* transition-duration: time| initial | inherit */
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out;
+            /*transition-timing-function: cubic-bezier(0.6, 0.1, 0.15, 0.8);*/
+        }
+    </style>
+        <script>
+            function updateTransition(){
+                var el = document.querySelector("div.box");
+
+                if(el){
+                    el.className = "box1";
+                }else{
+                    el = document.querySelector("div.box1");
+                    el.className = "box";
+                }
+                return el;
+            }
+            var intervalID = window.setInterval(updateTransition, 7000);
+        </script>
+    <body>
+        <!--transition-delay: 4s-->
+        
+        <div class="parent"></div>
+        <div class = "box">hi</div>
+    </body>
+</html>
+
+
+
+<!--
+    selectors
+    정의: 하나 이상의 선택자를 포함한 DOMString. 유효한 CSS 선택자여야하며 아닐 경우 SYNTAX_ERR 발생.
+    반환값: 제공한 css 선택자를 만족하는 첫 번째 Element 객체. 결과가 없다면 null
+
+    document.querySelector()
+    : 제공한 선택자 또는 선택자 뭉치와 일치하는 문서 내 첫 번쨰 Element 반환. 일치하는 요소 없다면 null 반환함.
+
+    DOMString
+    : UTF-16 문자열. 자바스크립트의 String도 UTF-16 문자열이기 때문에 DOMString은 String 으로연결됨.
+      DOMString을 받는 매개 변수에 null을 전달하면, 보통 문자열로 변환해 "null"이됨.
+-->
