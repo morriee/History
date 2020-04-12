@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Highcharts Example</title>
+	
+	
+	<!-- 1. Add these JavaScript inclusions in the head of your page -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/data/201010/IJ12882294049097/highcharts.js"></script>
+	
+	<!-- 1a) Optional: the exporting module -->
+	<script type="text/javascript" src="/data/201010/IJ12882294049097/modules/exporting.js"></script>
+	
+	
+	<!-- 2. Add the JavaScript to initialize the chart on document ready -->
+	<script type="text/javascript">
+	
+		var chart;
+		$(document).ready(function() {
+			chart = new Highcharts.Chart({
+				chart: {
+					renderTo: 'container'
+				},
+				title: {
+					text: 'Combination chart'
+				},
+				xAxis: {
+					categories: ['Apples', 'Oranges', 'Pears', 'Bananas', 'Plums']
+				},
+				tooltip: {
+					formatter: function() {
+						var s;
+						if (this.point.name) { // the pie chart
+							s = ''+
+								this.point.name +': '+ this.y +' fruits';
+						} else {
+							s = ''+
+								this.x  +': '+ this.y;
+						}
+						return s;
+					}
+				},
+				labels: {
+					items: [{
+						html: 'Total fruit consumption',
+						style: {
+							left: '40px',
+							top: '8px',
+							color: 'black'				
+						}
+					}]
+				},
+				series: [{
+					type: 'column',
+					name: 'Jane',
+					data: [3, 2, 1, 3, 4]
+				}, {
+					type: 'column',
+					name: 'John',
+					data: [2, 3, 5, 7, 6]
+				}, {
+					type: 'column',
+					name: 'Joe',
+					data: [4, 3, 3, 9, 0]
+				}, {
+					type: 'spline',
+					name: 'Average',
+					data: [3, 2.67, 3, 6.33, 3.33]
+				}, {
+					type: 'pie',
+					name: 'Total consumption',
+					data: [{
+						name: 'Jane',
+						y: 13,
+						color: '#4572A7' // Jane's color
+					}, {
+						name: 'John',
+						y: 23,
+						color: '#AA4643' // John's color
+					}, {
+						name: 'Joe',
+						y: 19,
+						color: '#89A54E' // Joe's color
+					}],
+					center: [100, 80],
+					size: 100,
+					showInLegend: false
+				}]
+			});
+			
+			
+		});
+			
+	</script>
+
+	
+	<!-- 3. Add the container -->
+	<div id="container" style="width: 800px; height: 400px; margin: 0 auto"></div>
+	
+<!-- 2. Add the JavaScript to initialize the chart on document ready -->
+	<script type="text/javascript">
+	
+		var chart;
+		$(document).ready(function() {
+			chart = new Highcharts.Chart({
+				chart: {
+					renderTo: 'container1',
+					margin: [50, 200, 60, 170]
+				},
+				title: {
+					text: 'Browser market shares at a specific website, 2010'
+				},
+				plotArea: {
+					shadow: null,
+					borderWidth: null,
+					backgroundColor: null
+				},
+				tooltip: {
+					formatter: function() {
+						return '<b>'+ this.point.name +'</b>: '+ this.y +' %';
+					}
+				},
+				plotOptions: {
+					pie: {
+						allowPointSelect: true,
+						cursor: 'pointer',
+						dataLabels: {
+							enabled: true,
+							formatter: function() {
+								if (this.y > 5) return this.point.name;
+							},
+							color: 'white',
+							style: {
+								font: '13px Trebuchet MS, Verdana, sans-serif'
+							}
+						}
+					}
+				},
+				legend: {
+					layout: 'vertical',
+					style: {
+						left: 'auto',
+						bottom: 'auto',
+						right: '50px',
+						top: '100px'
+					}
+				},
+				series: [{
+					type: 'pie',
+					name: 'Browser share',
+					data: [
+						['Firefox',   45.0],
+						['IE',       26.8],
+						{
+							name: 'Chrome',    
+							y: 12.8,
+							sliced: true,
+							selected: true
+						},
+						['Safari',    8.5],
+						['Opera',     6.2],
+						['Others',   0.7]
+					]
+				}]
+			});
+		});
+			
+	</script>
+
+	
+	<!-- 3. Add the container1 -->
+	<div id="container1" style="width: 800px; height: 400px; margin: 0 auto"></div>		
+	<script type="text/javascript">
+	
+		var chart;
+		$(document).ready(function() {
+			chart = new Highcharts.Chart({
+				chart: {
+					renderTo: 'container2',
+					defaultSeriesType: 'spline',
+					inverted: true,
+					width: 500,
+					style: {
+						margin: '0 auto'
+					}
+				},
+					title: {
+					text: 'Atmosphere Temperature by Altitude'
+				},
+					subtitle: {
+					text: 'According to the Standard Atmosphere Model'
+				},
+				xAxis: {
+					reversed: false,
+					title: {
+						enabled: true,
+						text: 'Altitude',
+						margin: 50
+					},
+					labels: {
+						formatter: function() {
+							return this.value +'km';
+						}
+					},
+					maxPadding: 0.05,
+					showLastLabel: true
+				},
+				yAxis: {
+					title: {
+						text: 'Temperature'
+					},
+					labels: {
+						formatter: function() {
+							return this.value + '°';
+						}
+					},
+					lineWidth: 2
+				},
+				legend: {
+					enabled: false
+				},
+				tooltip: {
+					formatter: function() {
+						return ''+
+							this.x +' km: '+ this.y +'°C';
+					}
+				},
+				plotOptions: {
+					spline: {
+						marker: {
+							enable: false
+						}
+					}
+				},
+				series: [{
+					name: 'Temperature',
+					data: [[0, 15], [10, -50], [20, -56.5], [30, -46.5], [40, -22.1], 
+						[50, -2.5], [60, -27.7], [70, -55.7], [80, -76.5]]
+				}]
+			});
+			
+			
+		});
+			
+	</script>
+	
+	
+	<!-- 3. Add the container2 -->
+	<div id="container2" style="width: 800px; height: 400px; margin: 0 auto"></div>		
+
+
+	<script type="text/javascript">
+		
+			var chart;
+			$(document).ready(function() {
+				chart = new Highcharts.Chart({
+					chart: {
+						renderTo: 'container3',
+						defaultSeriesType: 'area'
+					},
+					title: {
+						text: 'Area chart with negative values'
+					},
+					xAxis: {
+						categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+					},
+					tooltip: {
+						formatter: function() {
+							return ''+
+								 this.series.name +': '+ this.y +'';
+						}
+					},
+					credits: {
+						enabled: false
+					},
+					series: [{
+						name: 'John',
+						data: [5, 3, 4, 7, 2]
+					}, {
+						name: 'Jane',
+						data: [2, -2, -3, 2, 1]
+					}, {
+						name: 'Joe',
+						data: [3, 4, 4, -2, 5]
+					}]
+				});
+				
+				
+			});
+				
+		</script>
+		
+
+		
+		<!-- 3. Add the container3 -->
+		<div id="container3" style="width: 800px; height: 400px; margin: 0 auto"></div>
+		
+</body>
+</html>

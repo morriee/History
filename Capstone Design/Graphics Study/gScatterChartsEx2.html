@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <div id="scatterchart_material"></div>
+    <title>googlechartex</title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['scatter']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function init(){
+            var options = {
+                width: 400,
+                height: 240,
+                animation: {
+                    duration: 1000,
+                    easing:'out',
+                },
+                vAxis: {minValue : 0, maxValue:1000}
+            };
+        }
+    
+        function drawChart () {
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('number', '사망자');
+            data.addColumn('number', '미국');
+
+            data.addRows([
+            [1, 15], [1, 15], [1, 15],
+            [1, 15], [1, 15], [1, 15],
+            [1, 35], [1, 35], [1, 35],
+            [1, 53], [1, 57], [3, 60],
+            [5, 60], [5, 63], [5, 68],
+            [6, 75], [6, 100], [6, 124],
+            [6, 158], [6, 221], [6, 319],
+            [6, 435], [7, 541], [9, 704],
+            [12, 994], [15, 1301], [17, 1697],
+            [19, 2247], [22, 2943], [24, 3680],
+            [27, 4663], [29, 6411], [29, 9259],
+            [33, 13789], [35, 19383], [36, 24207],
+            [40, 33566], [41, 43734], [42, 54856],
+            [44, 68211], [46, 85435], [47, 104126],
+            [52, 123578], [52, 143491], [56, 163788],
+            [65, 188530]
+
+            ]);
+
+            var options = {
+            width: 1000,
+            height: 700,
+            chart: {
+                title: '미국의 코로나 상황',
+                subtitle: '시간순으로'
+            },
+            hAxis: {title: '사망자'},
+            vAxis: {title: '확진자'}
+            };
+
+            var chart = new google.charts.Scatter(document.getElementById('scatterchart_material'));
+
+            chart.draw(data, google.charts.Scatter.convertOptions(options));
+        }
+    </script>
+  </head>
+  <body>
+    <div id="scatterchart_material" ></div>
+  </body>
+</html>

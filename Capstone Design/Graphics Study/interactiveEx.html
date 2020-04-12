@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script type="text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current',{'packages':['bar']});
+            google.charts.setOnLoadCallback(drawChart);
+
+            //Tatal Cases
+            function drawChart1() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Country', 'Total Cases', 'Total Deaths', 'Serious Critical'],
+                    ['S.Korea', 8961, 111, 59],
+                    ['Italy', 59138, 5476, 3000],
+                    ['USA', 35075, 458, 795],
+                    ['Spain', 33089, 2206, 2355]
+                ]);
+
+                var options = {
+                    chart: {
+                    title: 'Coronavirus Pandemic',
+                    subtitle: 'Total Cases, Total Deaths, and Serious Critical: Now',
+                    },
+                    bars: 'horizontal', // Required for Material Bar Charts.
+                    hAxis: {format: 'decimal'},
+                    height: 400,
+                    colors: ['#1b9e77', '#d95f02', '#7570b3']
+                };
+
+                var chart = new google.charts.Bar(document.getElementById('chart_div'));
+
+                chart.draw(data, google.charts.Bar.convertOptions(options));
+
+                var btns = document.getElementById('btn-group');
+
+                btns.onclick = function (e) {
+
+                    if (e.target.tagName === 'BUTTON') {
+                        options.hAxis.format = e.target.id === 'none' ? '' : e.target.id;
+                        chart.draw(data, google.charts.Bar.convertOptions(options));
+                    }
+                }
+            }
+
+
+        </script>
+    
+    </head>
+    <body>
+        <div id="chart_div"></div>
+        <br/>
+        <div id="btn-group">
+        <button class="button button-blue" id="none">No Format</button>
+        <button class="button button-blue" id="scientific">Scientific Notation</button>
+        <button class="button button-blue" id="decimal">Decimal</button>
+        <button class="button button-blue" id="short">Short</button>
+        </div>
+        
+            
+    </body>
+</html>
+
+
