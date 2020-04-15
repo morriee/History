@@ -5,6 +5,7 @@ Error Image
 <div>
 <img src = "https://user-images.githubusercontent.com/42960479/79352939-67f17500-7f75-11ea-899c-c81765cec97b.PNG">
 </div>
+
 --------------
 이 에러 메시지는 크롬 브라우저에서 Ajax를 테스트 할 경우에 생긴다.
         
