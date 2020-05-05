@@ -1,0 +1,40 @@
+0708
+원형연결리스트
+노드안에 null값이 없다.
+단순연결리스트 보다 좋은점: 아무데서나 출발해도 원하는 노드 탐색이 가능하다.(검색의 유연성)
+문제점: 단순연결리스트는 헤드에서부터시작해서 null까지 찾고자 하는 노드가 없다면 끝남. 그러나 원형 연결리스트는 null, 즉 끝 값이 없기 때문에 무한루프 돌 가능성 다분함.
+원형연결리스트에서 노드를 다 검사햇다는 것은 링크값이 헤드에 연결되엇을때, 한바퀴가 돌앗음.이라는 제한 조건을 걸어야함.
+그외는 단순연결리스트와 비슷함.
+
+방법은 두가지.
+1.헤드가 처음 노드에(리스트의 처음에 삽입)
+2.헤드가 마지막 노드에(리스트의 끝에 삽입).->이 방법이 더 요긴함. 
+이유는 헤드가 뒤에잇을 경우 노드를 추가 할시 추가만 하면 됨.
+
+연결리스트 2 ppt10쪽
+카드게임.. element int 에 char 로바꾸고 20,30,40대신에 이름을 넣기.나머지코드는 동일
+
+
+이중연결 리스트
+단순연결리스트의 문제점: 선행노드를 찾기가 힘들다.  ->이중연결리스트로 해결
+이중연결리스트의 단점 공간을 많이 차지하고 코드가 복잡함. 포인터를 앞뒤로 연결해야되서 복잡하다.
+헤드노드: 데이터를 가지지 않고 단지 삽입,삭제 코드만을 간단하게 할 목적으로 만들어진 노드.
+헤드노드를 사용해서 코드를 간략하게 만들려고 만든것임.
+
+****ppt19
+앞노드의 다음에 노드를 삽입.
+
+void dinsert(DListNode *before, element data)
+{
+DListNode *newnode = (DListNode *)malloc(sizeof(DListNode));		//새로운 노드를 저장할 메모리 공간 할당
+strcpy(newnode->data, data);
+newnode->llink = before;		//(1)
+newnode->rlink = before->rlink;		//(2)
+before->rlink->llink = newnode;		//(3) ***이부분 엄청 중요함. 반드시 3	번째에 넣어야함. 3,4번이 바뀌면 안댐..
+before->rlink = newnode;		//(4)}void ddelete(DListNode* head, DListNode* removed)		//head라고 하는 포인터 주소값이 넘어오면..
+{
+if (removed == head) return;	
+removed->llink->rlink = removed->rlink;		//제거하려는 노드의 라이트 노드값의 점을 가져와야함.(1)
+removed->rlink->llink = removed->llink;		//(2)
+free(removed);		
+}
