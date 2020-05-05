@@ -1,0 +1,103 @@
+//
+//  ViewController.swift
+//  hw3-ch07-1731214-ShinSoojung
+//
+//  Created by admin2 on 2020/05/05.
+//  Copyright © 2020 admin2. All rights reserved.
+//
+
+import FSCalendar
+import SwiftyJSON
+import Alamofire
+//import CalendarKit
+import UIKit
+
+// public holiday
+struct PublicHoliday {
+    var name : String
+    var date :  String
+}
+
+class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource, FSCalendarDelegateAppearance {
+
+    @IBOutlet weak var calendar: FSCalendar!
+    
+    let formatter = DateFormatter()
+    var PH : [PublicHoliday]=[]     //공휴일 배열 생성
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        calendarApi(year:"2020")
+        
+        //주말은 주홍글씨
+        calendar.appearance.titleWeekendColor = UIColor.orange
+        //여러 날짜 선택
+        calendar.allowsMultipleSelection = true
+        calendar.clipsToBounds = true
+        calendar.delegate = self
+        calendar.dataSource = self
+    }
+    
+
+    //Alamofire로 공휴일 정보 파싱
+    func calendarApi(year: String){
+        let baseURLStr = "https://calendarific.com/api/v2/holidays"
+        let apiKey = "5cbeac3dfa646f9031b3c80d82b681ec3d4491dc"
+        let urlStr = ["api_key": apiKey,"country": "kr","year": year]
+        
+        Alamofire.request(baseURLStr, method: .get, parameters: urlStr, encoding: URLEncoding.default).validate(statusCode:200..<300).responseJSON{
+            (response) in
+            switch response.result{
+            case .success(let value):
+                let jsonObject = JSON(value)
+                let count = jsonObject["response"]["PH"].count
+                for i in 0..<count {
+                    let name = jsonObject["response"]["PH"][i]["name"].string!
+                    self.formatter.dateFormat = "EEEE MM-dd-YYYY"
+                    let date = jsonObject["response"]["PH"][i]["date"]["iso"].string!
+                    let ph = PublicHoliday(name: name, date: date)
+                    self.PH.append(ph)
+                    self.calendar.reloadData()
+                }
+            case .failure(_):
+                print("error")
+            }
+        }
+    }
+    
+    //날짜를 클릭하면 그 날짜 출력함
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+        //let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE MM-dd-YYYY"
+        let string = formatter.string(from: date)
+        print("\(string)")
+    }
+    
+    //공휴일 청록색으로 표시
+    func calendar(_ calendar:FSCalendar, appearance:FSCalendarAppearance, fillDefaultColorFor date: Date)->UIColor?{
+        formatter.dateFormat = "yyyy-MM-dd"
+        let dataForm = formatter.string(from:date)
+        
+        for ph in self.PH{
+            if ph.date == dataForm{
+                return UIColor.cyan
+           }
+        }
+        return nil
+    }
+    
+    // 공휴일 이름 출력
+    func calendar(_ calendar: FSCalendar, subtitleFor date: Date) -> String? {
+        formatter.dateFormat = "yyyy-MM-dd"
+        let dataForm = formatter.string(from: date)
+        for ph in self.PH{
+            if ph.date == dataForm{
+                return ph.name
+            }
+        }
+        return nil
+    }
+    
+}
+
