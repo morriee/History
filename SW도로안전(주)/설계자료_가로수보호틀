@@ -1,0 +1,102 @@
+<style>
+    .product_form_wrap{overflow-x:auto; margin-bottom:20px;}
+    .product_box>.sc{font-size:14px; text-align:right; line-height:1.6em; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:400; word-break:keep-all;}
+    .product_form{width:768px; border-top:3px solid #d7171f;}
+    .product_form th{font-size:13px; padding:8px 5px; border:1px solid #ccc; background:#ececec; text-align:center; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:500;}
+    .product_form tr:first-child th:nth-child(1){width:14%;}
+    .product_form tr:first-child th:nth-child(2){width:15%;}
+    .product_form tr:first-child th:nth-child(3){width:14%;}
+    .product_form tr:first-child th:nth-child(4){width:15%;}
+    .product_form tr:first-child th:nth-child(5){width:15%;}
+    .product_form tr:first-child th:nth-child(6){width:9%;}
+    .product_form tr:first-child th:nth-child(7){width:9%;}
+    .product_form tr:first-child th:nth-child(8){width:9%;}
+    .product_form tr:nth-child(2) th:nth-child(2){width:7%;}
+    .product_form td{font-size:13px; padding:8px 5px; border:1px solid #ccc; text-align:center; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:400;}
+    .product_form td>a{font-size:17px;}
+    @media screen and (min-width: 768px) {
+      .product_box>.sc{display:none;}
+      .product_form{width:100%;}
+    }
+    @media screen and (min-width: 1100px) {
+      .product_form th{font-size:15px;}
+      .product_form td{font-size:15px;}
+    }
+</style>
+<div class="product_box">
+  <p class="sc">
+    * 가로로 스크롤 할 수 있습니다.
+  </p>
+  <div class="product_form_wrap">
+    <table class="product_form">
+      <tr>
+        <th rowspan="2">모델명</th>
+        <th colspan="2">규격</th>
+        <th rowspan="2">일위대가</th>
+        <th rowspan="2">도면</th>
+        <th rowspan="2">시방서</th>
+      </tr>
+      <tr>
+        <th>가로</th>
+        <th>세로</th>
+      </tr>
+      <!--여기서부터-->
+   <tr>
+        <td>신우 1000x800A</td>
+        <td>2000</td>
+        <td>1000</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+    	 <td rowspan="8"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>신우 1000x1000A</td>
+        <td>1105</td>
+        <td>1105</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>신우 1200x1000D</td>
+        <td>1305</td>
+        <td>1105</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>신우 1500x1000D</td>
+        <td>1605</td>
+        <td>1105</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>신우 1500x1000D</td>
+        <td>1605</td>
+        <td>1105</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+    <tr>
+        <td>신우 1500x1200D</td>
+        <td>1605</td>
+        <td>1305</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+    <tr>
+        <td>신우 1500x1500D</td>
+        <td>1605</td>
+        <td>1605</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+
+       
+      <!--여기까지-->
+
+    </table>
+  </div>
+</div>
+
+
