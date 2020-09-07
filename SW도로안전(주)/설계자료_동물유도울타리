@@ -1,0 +1,234 @@
+<style>
+    .product_form_wrap{overflow-x:auto; margin-bottom:20px;}
+    .product_box>.sc{font-size:14px; text-align:right; line-height:1.6em; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:400; word-break:keep-all;}
+    .product_form{width:768px; border-top:3px solid #d7171f;}
+    .product_form th{font-size:13px; padding:8px 5px; border:1px solid #ccc; background:#ececec; text-align:center; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:500;}
+    .product_form tr:first-child th:nth-child(1){width:14%;}
+    .product_form tr:first-child th:nth-child(2){width:15%;}
+    .product_form tr:first-child th:nth-child(3){width:14%;}
+    .product_form tr:first-child th:nth-child(4){width:15%;}
+    .product_form tr:first-child th:nth-child(5){width:15%;}
+    .product_form tr:first-child th:nth-child(6){width:9%;}
+    .product_form tr:first-child th:nth-child(7){width:9%;}
+    .product_form tr:first-child th:nth-child(8){width:9%;}
+    .product_form tr:nth-child(2) th:nth-child(2){width:7%;}
+    .product_form td{font-size:13px; padding:8px 5px; border:1px solid #ccc; text-align:center; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:400;}
+    .product_form td>a{font-size:17px;}
+    @media screen and (min-width: 768px) {
+      .product_box>.sc{display:none;}
+      .product_form{width:100%;}
+    }
+    @media screen and (min-width: 1100px) {
+      .product_form th{font-size:15px;}
+      .product_form td{font-size:15px;}
+    }
+</style>
+<div class="product_box">
+  <p class="sc">
+    * 가로로 스크롤 할 수 있습니다.
+  </p>
+  <div class="product_form_wrap">
+    <table class="product_form">
+      <tr>
+        <th rowspan="2">모델명</th>
+        <th colspan="2">규격</th>
+        <th rowspan="2">일위대가</th>
+        <th rowspan="2">도면</th>
+        <th rowspan="2">지침</th>
+      </tr>
+      <tr>
+        <th>W</th>
+        <th>H</th>
+      </tr>
+      <!--여기서부터-->
+   <tr>
+        <td>SWF-DF12-02A,H02A(도금망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+    	 <td rowspan="25"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-02A,H02A(도금망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF12-02B,H02B(도금망+조밀망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-02B,H02B(도금망+조밀망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF12-S03A,H03A(PVC망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-S03A,H03A(PVC망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+
+   <tr>
+        <td>SWF-DF12-02,03,H02(PVC망+조밀망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-02,03,H02(PVC망+조밀망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF12-01A,H01A(방형망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-01A,H01A(방형망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF12-01B,H01B(방형망+조밀망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-3DF12-H01A(방형망)</td>
+        <td>3000</td>
+        <td>1200</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-01B,H01B(방형망+조밀망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-3DF15-H01A(방형망)</td>
+        <td>3000</td>
+        <td>1500</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>EX-DF312-01</td>
+        <td>3000</td>
+        <td>1200</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>EX-DF315-01</td>
+        <td>3000</td>
+        <td>1500</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>EXF-3DF12-H01A(방형망)</td>
+        <td>3000</td>
+        <td>1200</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>EXF-3DF15-H01A(방형망)</td>
+        <td>3000</td>
+        <td>1500</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF12-01,H01(방형망+조밀망)</td>
+        <td>2000</td>
+        <td>1200</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-01,H01(방형망+조밀망)</td>
+        <td>2000</td>
+        <td>1500</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+
+   <tr>
+        <td>SWF-DF2518-02A(도금망)</td>
+        <td>2500</td>
+        <td>1800</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-18-01(경계용)</td>
+        <td>2000</td>
+        <td>1800</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-20-01(경계용)</td>
+        <td>2000</td>
+        <td>2000</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF12-D,HD(출입문)</td>
+        <td>1000</td>
+        <td>1200</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF15-D,HD(출입문)</td>
+        <td>1000</td>
+        <td>1500</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+   </tr>
+   <tr>
+        <td>SWF-DF-H(조밀망)</td>
+        <td>2000</td>
+        <td>500</td>
+        <td></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td></td>
+   </tr>
+      <!--여기까지-->
+
+    </table>
+  </div>
+</div>
