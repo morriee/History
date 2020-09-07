@@ -1,0 +1,193 @@
+<style>
+    .product_form_wrap{overflow-x:auto; margin-bottom:20px;}
+    .product_box>.sc{font-size:14px; text-align:right; line-height:1.6em; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:400; word-break:keep-all;}
+    .product_form{width:768px; border-top:3px solid #d7171f;}
+    .product_form th{font-size:13px; padding:8px 5px; border:1px solid #ccc; background:#ececec; text-align:center; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:500;}
+    .product_form tr:first-child th:nth-child(1){width:14%;}
+    .product_form tr:first-child th:nth-child(2){width:15%;}
+    .product_form tr:first-child th:nth-child(3){width:14%;}
+    .product_form tr:first-child th:nth-child(4){width:15%;}
+    .product_form tr:first-child th:nth-child(5){width:15%;}
+    .product_form tr:first-child th:nth-child(6){width:9%;}
+    .product_form tr:first-child th:nth-child(7){width:9%;}
+    .product_form tr:first-child th:nth-child(8){width:9%;}
+    .product_form tr:nth-child(2) th:nth-child(2){width:7%;}
+    .product_form td{font-size:13px; padding:8px 5px; border:1px solid #ccc; text-align:center; font-family:'Noto Sans','Nanum Gothic','Malgun Gothic',sans-serif; font-weight:400;}
+    .product_form td>a{font-size:17px;}
+    @media screen and (min-width: 768px) {
+      .product_box>.sc{display:none;}
+      .product_form{width:100%;}
+    }
+    @media screen and (min-width: 1100px) {
+      .product_form th{font-size:15px;}
+      .product_form td{font-size:15px;}
+    }
+</style>
+<div class="product_box">
+  <p class="sc">
+    * 가로로 스크롤 할 수 있습니다.
+  </p>
+  <div class="product_form_wrap">
+    <table class="product_form">
+      <tr>
+        <th rowspan="2">품명</th>
+        <th rowspan="2">모델명</th>
+        <th colspan="2">규격</th>
+        <th rowspan="2">시공방법</th>
+        <th rowspan="2">일위대가</th>
+        <th rowspan="2">도면</th>
+        <th rowspan="2">시방서</th>
+      </tr>
+      <tr>
+        <th>W</th>
+        <th>H</th>
+      </tr>
+      <!--여기서부터-->
+   <tr>
+        <td rowspan="10">비구방지휀스<br>(디자인형)</td>
+        <td>SWU-BK60-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">6000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+    	 <td rowspan="20"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <tr>
+        <td>SWU-BK60-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+   <tr>
+        <td>SWU-BK50-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">5000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <tr>
+        <td>SWU-BK50-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>      
+     <tr>
+        <td>SWU-BK40-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">4000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <tr>
+        <td>SWU-BK40-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>      
+   <tr>
+        <td>SWU-BK30-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">3000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <tr>
+        <td>SWU-BK30-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>            
+   <tr>
+        <td>SWU-BK25</td>
+        <td>2000</td>
+        <td>2500</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+   <tr>
+        <td>SWU-BK20</td>
+        <td>2000</td>
+        <td>2000</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+
+      
+   <tr>
+        <td rowspan="10">비구방지휀스<br>(소프트형)</td>
+        <td>SWU-BKBJ6-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">6000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <tr>
+        <td>SWU-BKBJ6-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+   <tr>
+        <td>SWU-BKBJ5-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">5000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <tr>
+        <td>SWU-BKBJ5-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      
+   <tr>
+        <td>SWU-BKBJ4-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">4000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+    	 <!--<td rowspan="16"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>-->
+      </tr>
+      <tr>
+        <td>SWU-BKBJ4-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+      <!--여기까지-->
+   <tr>
+        <td>SWU-BKBJ3-N</td>
+        <td rowspan="2">2000</td>
+        <td rowspan="2">3000</td>
+        <td>기초별도</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td rowspan="2"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+    	 <!--<td rowspan="16"><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>-->
+      </tr>
+      <tr>
+        <td>SWU-BKBJ3-P</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>     
+   <tr>
+        <td>SWU-BKBJ25</td>
+        <td>2000</td>
+        <td>2500</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+   <tr>
+        <td>SWU-BKBJ2</td>
+        <td>2000</td>
+        <td>2000</td>
+        <td>기초포함</td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+        <td><a href="" dowload><img src="/img_up/shop_pds/kp767a/design/img/down_icon.png" alt="icon"></a></td>
+      </tr>
+    </table>
+  </div>
+</div>
