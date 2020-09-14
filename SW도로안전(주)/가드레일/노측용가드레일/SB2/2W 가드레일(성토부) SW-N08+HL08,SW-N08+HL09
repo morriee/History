@@ -1,0 +1,51 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">등급</th>
+			<th rowspan="2">식별번호</th>
+			<th rowspan="2">마감</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">관급<br>일위대가</th>
+			<th rowspan="2">사급<br>일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td rowspan="2">SB2<br>(2W용,성토부)</td>
+			<td>22895111</td>
+			<td>도금</td>
+			<td>SW-N08+HL08</td>
+			<td>4000</td>
+			<td>1060</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/2020-sang-sw-n08_hl08-gwan-geup-sw.zip"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/2020-sang-sw-n08_hl08-sa-geup.zip
+"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/sw-n08hl08.pdf" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+          <td rowspan="2"><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/sw-an-jeon-bang-ho-chaek-ga-deu-re-il-si-bang.hwp
+"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>22895111</td>
+			<td>도금</td>
+			<td>SW-N08+HL09</td>
+          <td>4000</td>		
+          <td>1260</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/2020-sang-sw-n08_hl09-gwan-geup-sw.zip
+"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/2020-sang-sw-n08_hl09-sa-geup.zip
+"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n08-hl08-hl09/sw-n08hl09.pdf
+"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
