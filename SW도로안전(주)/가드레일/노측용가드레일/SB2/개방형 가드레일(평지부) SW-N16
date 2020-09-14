@@ -1,0 +1,57 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">등급</th>
+			<th rowspan="2">식별번호</th>
+			<th rowspan="2">마감</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">관급<br>일위대가</th>
+			<th rowspan="2">사급<br>일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td rowspan="4">SB2</td>
+			<td>23643186</td>
+			<td>도금</td>
+			<td>SW-N16-SB2-01</td>
+			<td rowspan="4">4000</td>
+			<td rowspan="4">1200</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-01--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-01--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td rowspan="4"><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/anyconv.com__sw-n16-sb2sb2-deung-geup.pdf" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+          <td rowspan="4"><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-an-jeon-bang-ho-chaek-ga-deu-re-il-si-bang.hwp"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>23648478</td>
+			<td>상단도장</td>
+          <td>SW-N16-SB2-02</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-02--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-02--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      <tr>
+			<td>23648477</td>
+			<td>상단도장</td>
+         <td>SW-N16-SB2-03</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-03--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-03--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      <tr>
+			<td>23648476</td>
+			<td>도장</td>
+        <td>SW-N16-SB2-04</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-04--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col1/sw-n16/sw-n16-sb2-04--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
