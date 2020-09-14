@@ -1,0 +1,76 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">등급</th>
+			<th rowspan="2">식별번호</th>
+			<th rowspan="2">마감</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">관급<br>일위대가</th>
+			<th rowspan="2">사급<br>일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td rowspan="3">SB3<br>(평지부)</td>
+			<td>22421113</td>
+			<td>도금</td>
+			<td>SW-N03-SB3-01</td>
+			<td rowspan="3">3000</td>
+			<td rowspan="3">1210</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n03-sb3-01hl1-dan--do-geum--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n03hl03--do-geum--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td rowspan="3"><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/anyconv.com__sw-n03_hl03.pdf" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+          <td rowspan="6"><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-an-jeon-bang-ho-chaek-ga-deu-re-il-si-bang.hwp"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>22421115</td>
+			<td>도장</td>
+          <td>SW-N03-SB3-02</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n03-sb3-02hl1-dan--do-jang--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n03hl03--do-jang--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      <tr>
+			<td>22421114</td>
+			<td>도장도금</td>
+         <td>SW-N03-SB3-03</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n03-sb3-03hl1-dan--do-jang-do-geum--gwan.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n03hl03--do-jang-do-geum--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      
+		<tr>
+			<td rowspan="3">SB3<br>(성토부)</td>
+			<td>22893957</td>
+			<td>도금</td>
+			<td>SW-N07-SB3-01</td>
+			<td rowspan="3">3000</td>
+			<td rowspan="3">1200</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n07-sb3-01hl1-dan--do-geum--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n07hl1-dan--do-geum--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td rowspan="3"><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/anyconv.com__sw-n07_hl03.pdf"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>22893958</td>
+			<td>도장</td>
+          <td>SW-N07-SB3-02</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n07-sb3-02hl1-dan--do-jang--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n07hl1-dan--do-jang--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      <tr>
+			<td>22893959</td>
+			<td>도장도금</td>
+         <td>SW-N03-SB3-03</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n07-sb3-03hl1-dan--do-jang-do-geum--gwan.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n03-hl03_sw-n07-hl03/sw-n07hl1-dan--do-jang-do-geum--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
