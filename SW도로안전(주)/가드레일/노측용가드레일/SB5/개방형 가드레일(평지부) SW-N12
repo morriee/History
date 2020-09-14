@@ -1,0 +1,51 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">등급</th>
+			<th rowspan="2">식별번호</th>
+			<th rowspan="2">마감</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">관급<br>일위대가</th>
+			<th rowspan="2">사급<br>일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td rowspan="3">SB5<br>(개방형,평지부)</td>
+			<td>22141834</td>
+			<td>도금</td>
+			<td>SW-N12-SB5-01</td>
+			<td rowspan="3">2000</td>
+			<td rowspan="3">900</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/2020-sang-sw-n12-sb5-01-do-geum--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/sw-n12-sb5-01--do-geum--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td rowspan="3"><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/anyconv.com__sw-n12-sb5.pdf" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+          <td rowspan="3"><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/sw-an-jeon-bang-ho-chaek-ga-deu-re-il-si-bang.hwp"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>22141836</td>
+			<td>도장도금</td>
+          <td>SW-N12-SB5-03</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/2020-sang-sw-n12-sb5-03-do-jang-do-geum--gwan.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/sw-n12-sb5-03--do-jang-do-geum--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      
+		<tr>
+			<td>22141835</td>
+			<td>도장</td>
+          <td>SW-N12-SB5-02</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/2020-sang-sw-n12-sb5-02-do-jang--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row1/col2/sw-n12/sw-n12-sb5-02--do-jang--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
