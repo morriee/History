@@ -1,0 +1,39 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">도금<br>일위대가</th>			
+          <th rowspan="2">도장<br>일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td>SWF-EXCG4-H1<br>(하차도)</td>
+			<td>4000</td>
+			<td>600</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row2/col3/g2b_23462961/swf-excg4-do-geum--ha-cha-do.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row2/col3/g2b_23462961/swf-excg4-do-jang--ha-cha-do.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><!--<a href="도면1" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a>--></td>
+          <td rowspan="2"><a href="시방서">
+            <img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>SWF-EXCG4-S1<br>(설치도)</td>
+			<td>4000</td>
+          <td>590</td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row2/col3/g2b_23462961/swf-excg4-do-geum--seol-chi-do.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row2/col3/g2b_23462961/swf-excg4-do-jang--seol-chi-do.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><!--<a href="도면2" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a>--></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
