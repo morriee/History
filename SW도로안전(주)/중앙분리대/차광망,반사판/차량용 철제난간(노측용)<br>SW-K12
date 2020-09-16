@@ -1,0 +1,51 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">등급</th>
+			<th rowspan="2">식별번호</th>
+			<th rowspan="2">마감</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">관급<br>일위대가</th>
+			<th rowspan="2">사급<br>일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td rowspan="4">SB4</td>
+			<td>22991539</td>
+			<td>도금</td>
+			<td>SW-K12-SB4-01</td>
+			<td rowspan="4">3000</td>
+			<td rowspan="4">650</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-k12-sb4-01--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-k12-sb4-01--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+			<td rowspan="4"><!--<a href="도면" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a>--></td>
+          <td rowspan="4"><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-an-jeon-bang-ho-chaek-ga-deu-re-il-si-bang.hwp"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>22991540</td>
+			<td>도장도금</td>
+          <td>SW-K12-SB4-02</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-k12-sb4-02--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-k12-sb4-02--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      <tr>
+			<td>22991541</td>
+			<td>도장</td>
+         <td>SW-K12-SB4-03</td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-k12-sb4-03--gwan-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row3/col1/sw-k12/sw-k12-sb4-03--sa-geup.xls"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+
+	</tbody>
+</table>
+</div>
+</div>
