@@ -1,0 +1,37 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+			<th rowspan="2">식별번호</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">지침</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+			<td rowspan="2">23253345</td>
+			<td>SWF-DF12-D</td>
+			<td>1000</td>
+			<td>1200</td>
+			<td><!--<a href="일위대가"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a>--></td>
+			<td><!--<a href="도면" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a>--></td>
+          <td rowspan="2"><a href="/img_up/shop_pds/kp767a/design/product/row4/col2/swf-df12-d/dong-mul-yu-do-ul-ta-ri-seol-chi-gwan-ri-ji.pdf"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+      <tr>
+			<td>SWF-DF15-D</td>
+			<td>1000</td>
+			<td>1500</td>
+			<td><!--<a href="일위대가"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a>--></td>
+			<td><!--<a href="도면" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a>--></td>
+      </tr>
+	</tbody>
+</table>
+</div>
+</div>
