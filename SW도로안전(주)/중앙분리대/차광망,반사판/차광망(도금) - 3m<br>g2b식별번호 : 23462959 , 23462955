@@ -1,0 +1,40 @@
+<div class="product_box">
+<p class="sc">* 가로로 스크롤 할 수 있습니다.</p>
+<div class="product_form_wrap">
+<table class="product_form">
+	<tbody>
+		<tr>
+          <th rowspan="2">식별번호</th>
+			<th rowspan="2">모델명</th>
+			<th colspan="2">규격</th>
+			<th rowspan="2">일위대가</th>
+          <th rowspan="2">도면</th>
+			<th rowspan="2">시방서</th>
+		</tr>
+		<tr>
+			<th>W</th>
+			<th>H</th>
+		</tr>
+		<tr>
+          <td>23462959</td>
+			<td>SWF-EXCG3-H1</td>
+			<td>3000</td>
+			<td>600</td>
+			<td><!--<a href="사급1"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a>--></td>
+			<td><a href="/img_up/shop_pds/kp767a/design/product/row2/col3/g2b_23462959/8586.-gi-ta-ul-ta-riswf-excg3-h1h2-cha-gwang.pdf" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+          <td rowspan="2"><a href="시방서"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a></td>
+		</tr>
+		<tr>
+			<td>23462955</td>
+          <td>SWF-EXCG3-S1</td>
+			<td>3000</td>
+          <td>590</td>
+          <td><!--<a href="사급1"><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/down_icon.png" /></a>--></td>
+          <td><a href="/img_up/shop_pds/kp767a/design/product/row2/col3/g2b_23462959/8990.-gi-ta-ul-ta-riswf-excg3-s1s2-cha-gwang.pdf" download><img alt="icon" src="/img_up/shop_pds/kp767a/design/img/pdf_icon.png" /></a></td>
+		</tr>
+
+
+	</tbody>
+</table>
+</div>
+</div>
