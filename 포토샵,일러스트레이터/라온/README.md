@@ -14,5 +14,5 @@
  --------------------
  <div>
   <img width = "800" src="https://user-images.githubusercontent.com/42960479/94508735-93c79500-024d-11eb-9942-5ed26c725d6f.png"> PC
-  <img width = "800" src="https://user-images.githubusercontent.com/42960479/94508741-9629ef00-024d-11eb-8e35-15ed100907b5.pn"> PC
+  <img width = "800" src="https://user-images.githubusercontent.com/42960479/94508741-9629ef00-024d-11eb-8e35-15ed100907b5.png"> PC
   </div>
